@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieDownloadz - Educational Phishing Awareness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="educational-disclaimer">
+        <p>⚠️ Most loved ❤️ Website. All real movies are available. ⚠️</p>
+    </div>
+
+    <div class="floating-elements">
+        <div class="float-element"></div>
+        <div class="float-element"></div>
+        <div class="float-element"></div>
+        <div class="float-element"></div>
+        <div class="float-element"></div>
+    </div>
+
+    <header>
+        <div class="logo">
+            <h1>MovieDownloadz</h1>
+            <p>Unlimited Movies. Free Downloads.</p>
+        </div>
+        <div class="user-actions">
+            <!-- Dark/Light Mode Toggle -->
+            <div class="theme-toggle">
+                <input type="checkbox" id="theme-switch" class="theme-switch">
+                <label for="theme-switch" class="theme-label">
+                    <span class="theme-icon moon">🌙</span>
+                    <span class="theme-icon sun">☀️</span>
+                    <span class="theme-slider"></span>
+                </label>
+            </div>
+            <button id="loginBtn" class="btn">Login</button>
+            <button id="signupBtn" class="btn btn-primary">Sign Up Free</button>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">New Releases</a></li>
+            <li><a href="#">Categories</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Animated Carousel for Posters -->
+        <section class="poster-carousel">
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <div class="carousel-slide">
+                        <img src="images/movie1.svg" alt="Movie Poster">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/movie2.svg" alt="Movie Poster">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/movie3.svg" alt="Movie Poster">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/movie1.svg" alt="Movie Poster">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/movie2.svg" alt="Movie Poster">
+                    </div>
+                </div>
+                <button class="carousel-btn prev">❮</button>
+                <button class="carousel-btn next">❯</button>
+            </div>
+        </section>
+
+        <!-- Upcoming Movies Countdown -->
+        <section class="upcoming-movies">
+            <h2>Coming Soon</h2>
+            <div class="countdown-container">
+                <div class="countdown-movie">
+                    <img src="images/movie1.svg" alt="Upcoming Movie">
+                    <div class="countdown-info">
+                        <h3>Space Explorers 2</h3>
+                        <p>The ultimate space adventure continues</p>
+                        <div class="countdown" data-release="2023-12-25">
+                            <div class="countdown-item">
+                                <span class="days">00</span>
+                                <span class="label">Days</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="hours">00</span>
+                                <span class="label">Hours</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="minutes">00</span>
+                                <span class="label">Minutes</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="seconds">00</span>
+                                <span class="label">Seconds</span>
+                            </div>
+                        </div>
+                        <button class="trailer-btn" data-trailer="trailer1">Watch Trailer</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured">
+            <h2>Featured Movies</h2>
+            <div class="movie-slider">
+                <div class="movie-card featured-movie">
+                    <img src="images/featured.svg" alt="Movie Poster">
+                    <div class="movie-info">
+                        <h3>The Latest Blockbuster</h3>
+                        <p class="movie-meta">2023 | Action, Adventure | HD</p>
+                        <div class="action-buttons">
+                            <button class="download-btn">Download Now</button>
+                            <button class="trailer-btn" data-trailer="featured">Watch Trailer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Top 10 Weekly Picks -->
+        <section class="top-picks">
+            <h2>Top 10 Weekly Picks</h2>
+            <div class="top-picks-container">
+                <div class="top-pick-item">
+                    <div class="rank">1</div>
+                    <img src="images/movie1.svg" alt="Top Pick Movie">
+                    <div class="top-pick-info">
+                        <h3>Cosmic Odyssey</h3>
+                        <p>2023 | Sci-Fi</p>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="top-pick-item">
+                    <div class="rank">2</div>
+                    <img src="images/movie2.svg" alt="Top Pick Movie">
+                    <div class="top-pick-info">
+                        <h3>Night Terror</h3>
+                        <p>2023 | Horror</p>
+                        <div class="rating">★★★★☆</div>
+                    </div>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="top-pick-item">
+                    <div class="rank">3</div>
+                    <img src="images/movie3.svg" alt="Top Pick Movie">
+                    <div class="top-pick-info">
+                        <h3>Ocean's Revenge</h3>
+                        <p>2023 | Action</p>
+                        <div class="rating">★★★★☆</div>
+                    </div>
+                    <button class="download-btn">Download</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="movie-grid">
+            <h2>Popular Downloads</h2>
+            <div class="movies">
+                <div class="movie-card">
+                    <img src="images/movie1.svg" alt="Movie Poster">
+                    <h3>Cosmic Odyssey</h3>
+                    <p>2023 | Sci-Fi</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="movie-card">
+                    <img src="images/movie2.svg" alt="Movie Poster">
+                    <h3>Night Terror</h3>
+                    <p>2023 | Horror</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="movie-card">
+                    <img src="images/movie3.svg" alt="Movie Poster">
+                    <h3>Ocean's Revenge</h3>
+                    <p>2023 | Action</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="movie-card">
+                    <img src="images/movie1.svg" alt="Movie Poster">
+                    <h3>Galactic Wars</h3>
+                    <p>2023 | Sci-Fi</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="movie-card">
+                    <img src="images/movie2.svg" alt="Movie Poster">
+                    <h3>Haunted Manor</h3>
+                    <p>2022 | Horror</p>
+                    <button class="download-btn">Download</button>
+                </div>
+                <div class="movie-card">
+                    <img src="images/movie3.svg" alt="Movie Poster">
+                    <h3>Deep Blue</h3>
+                    <p>2023 | Adventure</p>
+                    <button class="download-btn">Download</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal Windows -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" required>
+                </div>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Sign Up</h2>
+            <form id="signupForm">
+                <div class="form-group">
+                    <label for="signupName">Full Name</label>
+                    <input type="text" id="signupName" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupEmail">Email</label>
+                    <input type="email" id="signupEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword">Password</label>
+                    <input type="password" id="signupPassword" required>
+                </div>
+                <button type="submit" class="submit-btn">Create Account</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="downloadModal" class="modal">
+        <div class="modal-content educational">
+            <span class="close">&times;</span>
+            <h2>Educational Notice</h2>
+            <div class="educational-content">
+                <p><strong>This is an educational website about phishing awareness.</strong></p>
+                <p>No actual movies are available for download. This site demonstrates how phishing sites might try to collect your information.</p>
+                <p>If this were a real phishing site:</p>
+                <ul>
+                    <li>Your login credentials would have been captured</li>
+                    <li>You might be redirected to malicious sites</li>
+                    <li>Your device could be infected with malware</li>
+                </ul>
+                <p>Always verify website legitimacy before entering personal information or downloading files.</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Trailer Popup Modal -->
+    <div id="trailerModal" class="modal trailer-modal">
+        <div class="modal-content trailer-content">
+            <span class="close">&times;</span>
+            <h2 id="trailerTitle">Movie Trailer</h2>
+            <div class="trailer-container">
+                <div class="fake-video">
+                    <div class="video-placeholder">
+                        <div class="play-icon">▶</div>
+                        <p>This is Movies website. Movies trailers are available.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="educational-content">
+                <p><strong>Educational Notice:</strong> Real phishing sites often use fake video players that either don't work or install malware when clicked.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2023 MovieDownloadz - Most loved ❤️ Website</p>
+    
+        <p>All movies are available for download. All content is Original.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
